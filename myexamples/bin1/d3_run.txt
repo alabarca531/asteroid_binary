@@ -8,11 +8,11 @@ spin period body 1 7.853982
 spin period body 2 31.415927
 orbital period  31.129017
 mean motion  0.201843
-N_1 80
-N_2 43
-NS_1 779
-NS_2 390
-NS_1/N_1 9.7
-NS_2/N_2 9.1
-Young's modulus body 1 2.41
-Young's modulus body 2 6.53
+N_1 85
+N_2 41
+NS_1 909
+NS_2 353
+NS_1/N_1 10.7
+NS_2/N_2 8.6
+Young's modulus body 1 2.96
+Young's modulus body 2 4.49
