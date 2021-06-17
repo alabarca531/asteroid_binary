@@ -43,9 +43,9 @@ def rotCalc(current, prev):
     #Product of S'^-1 and S -> R
     rot = np.matmul(np.linalg.inv(EvecPrev), EvecCurr)
     new = np.matmul(np.linalg.inv(rot),np.matmul(prev, rot))
-#     np.set_printoptions(suppress=True)
-#     print("Difference in Calc\n", (current - new))
-#     np.set_printoptions(suppress=False)
+    np.set_printoptions(suppress=True)
+    print("Difference in Calc\n", (current - new))
+    np.set_printoptions(suppress=False)
     return rot
     
     
